@@ -105,9 +105,9 @@
     /// 检测网络
     if (![self checkNetworkStatus]) return;
     
-    AFURLSessionManager *sessionManager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[self setSessionConfiguration]];
+    AFHTTPSessionManager *sessionManager = [[AFHTTPSessionManager manager] initWithSessionConfiguration:[self setSessionConfiguration]];
     sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [(AFHTTPResponseSerializer*)sessionManager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"text/plain",@"text/html",@"application/json",@"application/x-javascript",nil]];
+    [sessionManager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"text/plain",@"text/html",@"application/json",@"application/x-javascript",nil]];
     
     NSError *error;
     NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"GET"
