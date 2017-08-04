@@ -7,25 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD394FEB1F2EDCDA009658F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD394FEA1F2EDCDA009658F2 /* main.m */; };
-		BD394FEE1F2EDCDA009658F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD394FED1F2EDCDA009658F2 /* AppDelegate.m */; };
-		BD394FF11F2EDCDA009658F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD394FF01F2EDCDA009658F2 /* ViewController.m */; };
-		BD394FF41F2EDCDA009658F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD394FF21F2EDCDA009658F2 /* Main.storyboard */; };
-		BD394FF61F2EDCDA009658F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD394FF51F2EDCDA009658F2 /* Assets.xcassets */; };
-		BD394FF91F2EDCDA009658F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD394FF71F2EDCDA009658F2 /* LaunchScreen.storyboard */; };
+		B00F3F6E0FB1237DE3414075 /* libPods-MVVMTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 198C79601884F222DFC4953E /* libPods-MVVMTest.a */; };
+		BD096E791F316EC7008371D5 /* SHEstateListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD096E781F316EC7008371D5 /* SHEstateListModel.m */; };
+		BD096E811F31DB5D008371D5 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BD096E801F31DB5D008371D5 /* CommonMethods.m */; };
+		BD0FA6DB1F307A1B0073ECE4 /* SHCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0FA6DA1F307A1B0073ECE4 /* SHCellViewModel.m */; };
+		BD39501B1F2EDF14009658F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950041F2EDF14009658F2 /* AppDelegate.m */; };
+		BD39501D1F2EDF14009658F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3950131F2EDF14009658F2 /* Assets.xcassets */; };
+		BD39501E1F2EDF14009658F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3950141F2EDF14009658F2 /* LaunchScreen.storyboard */; };
+		BD39501F1F2EDF14009658F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3950161F2EDF14009658F2 /* Main.storyboard */; };
+		BD3950211F2EDF14009658F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39501A1F2EDF14009658F2 /* main.m */; };
+		BD3950241F2F042E009658F2 /* RequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950231F2F042E009658F2 /* RequestEngine.m */; };
+		BD3950271F2F0556009658F2 /* RequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950261F2F0556009658F2 /* RequestError.m */; };
+		BD3950421F2F1394009658F2 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950311F2F1394009658F2 /* BaseCell.m */; };
+		BD3950431F2F1394009658F2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950351F2F1394009658F2 /* BaseModel.m */; };
+		BD3950441F2F1394009658F2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950381F2F1394009658F2 /* BaseViewController.m */; };
+		BD3950451F2F1394009658F2 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39503C1F2F1394009658F2 /* BaseViewModel.m */; };
+		BD3950461F2F1394009658F2 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950401F2F1394009658F2 /* BaseView.m */; };
+		BD39504A1F2F13E5009658F2 /* UIView+GYShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950491F2F13E5009658F2 /* UIView+GYShortcut.m */; };
+		BD39504D1F2F1571009658F2 /* SecondHandHouseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39504C1F2F1571009658F2 /* SecondHandHouseListViewController.m */; };
+		BD3950501F2F15D2009658F2 /* SecondHandHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39504F1F2F15D2009658F2 /* SecondHandHouseView.m */; };
+		BD3950551F2F1AB2009658F2 /* SecondHandHouseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950541F2F1AB2009658F2 /* SecondHandHouseViewModel.m */; };
+		BD3950581F2F1C24009658F2 /* HandEstateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3950571F2F1C24009658F2 /* HandEstateModel.m */; };
+		BD39505B1F2F1E01009658F2 /* SecondHandHouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39505A1F2F1E01009658F2 /* SecondHandHouseCell.m */; };
+		BD39505D1F2F1E20009658F2 /* SecondHandHouseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD39505C1F2F1E20009658F2 /* SecondHandHouseCell.xib */; };
+		BD3950601F2F1E93009658F2 /* SecondHandHouseTableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39505F1F2F1E93009658F2 /* SecondHandHouseTableHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		198C79601884F222DFC4953E /* libPods-MVVMTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVMTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F4EE59EB6D62BBE6EA5E9 /* Pods-MVVMTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMTest/Pods-MVVMTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BD096E771F316EC7008371D5 /* SHEstateListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHEstateListModel.h; sourceTree = "<group>"; };
+		BD096E781F316EC7008371D5 /* SHEstateListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHEstateListModel.m; sourceTree = "<group>"; };
+		BD096E7F1F31DB5D008371D5 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
+		BD096E801F31DB5D008371D5 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
+		BD0FA6D91F307A1B0073ECE4 /* SHCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCellViewModel.h; sourceTree = "<group>"; };
+		BD0FA6DA1F307A1B0073ECE4 /* SHCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCellViewModel.m; sourceTree = "<group>"; };
 		BD394FE61F2EDCDA009658F2 /* MVVMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD394FEA1F2EDCDA009658F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BD394FEC1F2EDCDA009658F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BD394FED1F2EDCDA009658F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BD394FEF1F2EDCDA009658F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD394FF01F2EDCDA009658F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BD394FF31F2EDCDA009658F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD394FF51F2EDCDA009658F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD394FF81F2EDCDA009658F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD394FFA1F2EDCDA009658F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3950031F2EDF14009658F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD3950041F2EDF14009658F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD3950131F2EDF14009658F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3950151F2EDF14009658F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD3950171F2EDF14009658F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD3950191F2EDF14009658F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD39501A1F2EDF14009658F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD3950221F2F042E009658F2 /* RequestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestEngine.h; sourceTree = "<group>"; };
+		BD3950231F2F042E009658F2 /* RequestEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestEngine.m; sourceTree = "<group>"; };
+		BD3950251F2F0556009658F2 /* RequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestError.h; sourceTree = "<group>"; };
+		BD3950261F2F0556009658F2 /* RequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestError.m; sourceTree = "<group>"; };
+		BD3950281F2F057D009658F2 /* RequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestConfig.h; sourceTree = "<group>"; };
+		BD3950291F2F073C009658F2 /* TestPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPCH.pch; sourceTree = "<group>"; };
+		BD3950301F2F1394009658F2 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		BD3950311F2F1394009658F2 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		BD3950321F2F1394009658F2 /* BaseCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellProtocol.h; sourceTree = "<group>"; };
+		BD3950341F2F1394009658F2 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BD3950351F2F1394009658F2 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		BD3950371F2F1394009658F2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BD3950381F2F1394009658F2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BD3950391F2F1394009658F2 /* ViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerProtocol.h; sourceTree = "<group>"; };
+		BD39503B1F2F1394009658F2 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		BD39503C1F2F1394009658F2 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		BD39503D1F2F1394009658F2 /* ViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelProtocol.h; sourceTree = "<group>"; };
+		BD39503F1F2F1394009658F2 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		BD3950401F2F1394009658F2 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		BD3950411F2F1394009658F2 /* BaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocol.h; sourceTree = "<group>"; };
+		BD3950481F2F13E5009658F2 /* UIView+GYShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GYShortcut.h"; sourceTree = "<group>"; };
+		BD3950491F2F13E5009658F2 /* UIView+GYShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GYShortcut.m"; sourceTree = "<group>"; };
+		BD39504B1F2F1571009658F2 /* SecondHandHouseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandHouseListViewController.h; sourceTree = "<group>"; };
+		BD39504C1F2F1571009658F2 /* SecondHandHouseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandHouseListViewController.m; sourceTree = "<group>"; };
+		BD39504E1F2F15D2009658F2 /* SecondHandHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandHouseView.h; sourceTree = "<group>"; };
+		BD39504F1F2F15D2009658F2 /* SecondHandHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandHouseView.m; sourceTree = "<group>"; };
+		BD3950531F2F1AB2009658F2 /* SecondHandHouseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandHouseViewModel.h; sourceTree = "<group>"; };
+		BD3950541F2F1AB2009658F2 /* SecondHandHouseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandHouseViewModel.m; sourceTree = "<group>"; };
+		BD3950561F2F1C24009658F2 /* HandEstateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandEstateModel.h; sourceTree = "<group>"; };
+		BD3950571F2F1C24009658F2 /* HandEstateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandEstateModel.m; sourceTree = "<group>"; };
+		BD3950591F2F1E01009658F2 /* SecondHandHouseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandHouseCell.h; sourceTree = "<group>"; };
+		BD39505A1F2F1E01009658F2 /* SecondHandHouseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandHouseCell.m; sourceTree = "<group>"; };
+		BD39505C1F2F1E20009658F2 /* SecondHandHouseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondHandHouseCell.xib; sourceTree = "<group>"; };
+		BD39505E1F2F1E93009658F2 /* SecondHandHouseTableHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHandHouseTableHeadView.h; sourceTree = "<group>"; };
+		BD39505F1F2F1E93009658F2 /* SecondHandHouseTableHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHandHouseTableHeadView.m; sourceTree = "<group>"; };
+		FD617B09D58745371C1DF259 /* Pods-MVVMTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMTest/Pods-MVVMTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +93,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00F3F6E0FB1237DE3414075 /* libPods-MVVMTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1231429C089506B6E70F5ABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				631F4EE59EB6D62BBE6EA5E9 /* Pods-MVVMTest.debug.xcconfig */,
+				FD617B09D58745371C1DF259 /* Pods-MVVMTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD096E7E1F31DB4C008371D5 /* CommonMethods */ = {
+			isa = PBXGroup;
+			children = (
+				BD096E7F1F31DB5D008371D5 /* CommonMethods.h */,
+				BD096E801F31DB5D008371D5 /* CommonMethods.m */,
+			);
+			path = CommonMethods;
+			sourceTree = "<group>";
+		};
 		BD394FDD1F2EDCDA009658F2 = {
 			isa = PBXGroup;
 			children = (
-				BD394FE81F2EDCDA009658F2 /* MVVMTest */,
+				BD3950001F2EDF14009658F2 /* MVVMTest */,
 				BD394FE71F2EDCDA009658F2 /* Products */,
+				1231429C089506B6E70F5ABB /* Pods */,
+				BEB2F3D37F72A865C458A661 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,28 +136,234 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD394FE81F2EDCDA009658F2 /* MVVMTest */ = {
+		BD3950001F2EDF14009658F2 /* MVVMTest */ = {
 			isa = PBXGroup;
 			children = (
-				BD394FEC1F2EDCDA009658F2 /* AppDelegate.h */,
-				BD394FED1F2EDCDA009658F2 /* AppDelegate.m */,
-				BD394FEF1F2EDCDA009658F2 /* ViewController.h */,
-				BD394FF01F2EDCDA009658F2 /* ViewController.m */,
-				BD394FF21F2EDCDA009658F2 /* Main.storyboard */,
-				BD394FF51F2EDCDA009658F2 /* Assets.xcassets */,
-				BD394FF71F2EDCDA009658F2 /* LaunchScreen.storyboard */,
-				BD394FFA1F2EDCDA009658F2 /* Info.plist */,
-				BD394FE91F2EDCDA009658F2 /* Supporting Files */,
+				BD3950011F2EDF14009658F2 /* Classes */,
+				BD3950121F2EDF14009658F2 /* Sources */,
+				BD3950181F2EDF14009658F2 /* SupportingFiles */,
 			);
 			path = MVVMTest;
 			sourceTree = "<group>";
 		};
-		BD394FE91F2EDCDA009658F2 /* Supporting Files */ = {
+		BD3950011F2EDF14009658F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BD394FEA1F2EDCDA009658F2 /* main.m */,
+				BD3950021F2EDF14009658F2 /* AppDelegate */,
+				BD3950051F2EDF14009658F2 /* Base */,
+				BD3950061F2EDF14009658F2 /* Category */,
+				BD3950071F2EDF14009658F2 /* Common */,
+				BD3950081F2EDF14009658F2 /* Modules */,
+				BD3950101F2EDF14009658F2 /* Request */,
+				BD3950111F2EDF14009658F2 /* Vendor */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BD3950021F2EDF14009658F2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950031F2EDF14009658F2 /* AppDelegate.h */,
+				BD3950041F2EDF14009658F2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BD3950051F2EDF14009658F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BD39502F1F2F1394009658F2 /* BaseCell */,
+				BD3950331F2F1394009658F2 /* BaseModel */,
+				BD3950361F2F1394009658F2 /* BaseViewController */,
+				BD39503A1F2F1394009658F2 /* BaseViewModel */,
+				BD39503E1F2F1394009658F2 /* BaseViews */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BD3950061F2EDF14009658F2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950471F2F13E5009658F2 /* ViewShortCut */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BD3950071F2EDF14009658F2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BD096E7E1F31DB4C008371D5 /* CommonMethods */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BD3950081F2EDF14009658F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BD39502A1F2F1092009658F2 /* SecondHandHouse */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BD3950101F2EDF14009658F2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950221F2F042E009658F2 /* RequestEngine.h */,
+				BD3950231F2F042E009658F2 /* RequestEngine.m */,
+				BD3950251F2F0556009658F2 /* RequestError.h */,
+				BD3950261F2F0556009658F2 /* RequestError.m */,
+				BD3950281F2F057D009658F2 /* RequestConfig.h */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BD3950111F2EDF14009658F2 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		BD3950121F2EDF14009658F2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950131F2EDF14009658F2 /* Assets.xcassets */,
+				BD3950141F2EDF14009658F2 /* LaunchScreen.storyboard */,
+				BD3950161F2EDF14009658F2 /* Main.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BD3950181F2EDF14009658F2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950191F2EDF14009658F2 /* Info.plist */,
+				BD39501A1F2EDF14009658F2 /* main.m */,
+				BD3950291F2F073C009658F2 /* TestPCH.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BD39502A1F2F1092009658F2 /* SecondHandHouse */ = {
+			isa = PBXGroup;
+			children = (
+				BD39502B1F2F1092009658F2 /* Controller */,
+				BD39502C1F2F1092009658F2 /* Model */,
+				BD39502D1F2F1092009658F2 /* View */,
+				BD39502E1F2F1092009658F2 /* ViewModel */,
+			);
+			path = SecondHandHouse;
+			sourceTree = "<group>";
+		};
+		BD39502B1F2F1092009658F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD39504B1F2F1571009658F2 /* SecondHandHouseListViewController.h */,
+				BD39504C1F2F1571009658F2 /* SecondHandHouseListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD39502C1F2F1092009658F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950561F2F1C24009658F2 /* HandEstateModel.h */,
+				BD3950571F2F1C24009658F2 /* HandEstateModel.m */,
+				BD096E771F316EC7008371D5 /* SHEstateListModel.h */,
+				BD096E781F316EC7008371D5 /* SHEstateListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD39502D1F2F1092009658F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD39504E1F2F15D2009658F2 /* SecondHandHouseView.h */,
+				BD39504F1F2F15D2009658F2 /* SecondHandHouseView.m */,
+				BD3950591F2F1E01009658F2 /* SecondHandHouseCell.h */,
+				BD39505A1F2F1E01009658F2 /* SecondHandHouseCell.m */,
+				BD39505C1F2F1E20009658F2 /* SecondHandHouseCell.xib */,
+				BD39505E1F2F1E93009658F2 /* SecondHandHouseTableHeadView.h */,
+				BD39505F1F2F1E93009658F2 /* SecondHandHouseTableHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD39502E1F2F1092009658F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950531F2F1AB2009658F2 /* SecondHandHouseViewModel.h */,
+				BD3950541F2F1AB2009658F2 /* SecondHandHouseViewModel.m */,
+				BD0FA6D91F307A1B0073ECE4 /* SHCellViewModel.h */,
+				BD0FA6DA1F307A1B0073ECE4 /* SHCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD39502F1F2F1394009658F2 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950301F2F1394009658F2 /* BaseCell.h */,
+				BD3950311F2F1394009658F2 /* BaseCell.m */,
+				BD3950321F2F1394009658F2 /* BaseCellProtocol.h */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		BD3950331F2F1394009658F2 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950341F2F1394009658F2 /* BaseModel.h */,
+				BD3950351F2F1394009658F2 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		BD3950361F2F1394009658F2 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950371F2F1394009658F2 /* BaseViewController.h */,
+				BD3950381F2F1394009658F2 /* BaseViewController.m */,
+				BD3950391F2F1394009658F2 /* ViewControllerProtocol.h */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		BD39503A1F2F1394009658F2 /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD39503B1F2F1394009658F2 /* BaseViewModel.h */,
+				BD39503C1F2F1394009658F2 /* BaseViewModel.m */,
+				BD39503D1F2F1394009658F2 /* ViewModelProtocol.h */,
+			);
+			path = BaseViewModel;
+			sourceTree = "<group>";
+		};
+		BD39503E1F2F1394009658F2 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				BD39503F1F2F1394009658F2 /* BaseView.h */,
+				BD3950401F2F1394009658F2 /* BaseView.m */,
+				BD3950411F2F1394009658F2 /* BaseViewProtocol.h */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		BD3950471F2F13E5009658F2 /* ViewShortCut */ = {
+			isa = PBXGroup;
+			children = (
+				BD3950481F2F13E5009658F2 /* UIView+GYShortcut.h */,
+				BD3950491F2F13E5009658F2 /* UIView+GYShortcut.m */,
+			);
+			path = ViewShortCut;
+			sourceTree = "<group>";
+		};
+		BEB2F3D37F72A865C458A661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198C79601884F222DFC4953E /* libPods-MVVMTest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD394FFD1F2EDCDA009658F2 /* Build configuration list for PBXNativeTarget "MVVMTest" */;
 			buildPhases = (
+				B37F1F209625B9935AEBEA86 /* [CP] Check Pods Manifest.lock */,
 				BD394FE21F2EDCDA009658F2 /* Sources */,
 				BD394FE31F2EDCDA009658F2 /* Frameworks */,
 				BD394FE41F2EDCDA009658F2 /* Resources */,
+				0D60D2C01DDA4354E3F7129C /* [CP] Embed Pods Frameworks */,
+				EE267644D4B801F2A04CF021 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,42 +428,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD394FF91F2EDCDA009658F2 /* LaunchScreen.storyboard in Resources */,
-				BD394FF61F2EDCDA009658F2 /* Assets.xcassets in Resources */,
-				BD394FF41F2EDCDA009658F2 /* Main.storyboard in Resources */,
+				BD39501F1F2EDF14009658F2 /* Main.storyboard in Resources */,
+				BD39501D1F2EDF14009658F2 /* Assets.xcassets in Resources */,
+				BD39501E1F2EDF14009658F2 /* LaunchScreen.storyboard in Resources */,
+				BD39505D1F2F1E20009658F2 /* SecondHandHouseCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D60D2C01DDA4354E3F7129C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMTest/Pods-MVVMTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B37F1F209625B9935AEBEA86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE267644D4B801F2A04CF021 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMTest/Pods-MVVMTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD394FE21F2EDCDA009658F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD394FF11F2EDCDA009658F2 /* ViewController.m in Sources */,
-				BD394FEE1F2EDCDA009658F2 /* AppDelegate.m in Sources */,
-				BD394FEB1F2EDCDA009658F2 /* main.m in Sources */,
+				BD3950601F2F1E93009658F2 /* SecondHandHouseTableHeadView.m in Sources */,
+				BD39504D1F2F1571009658F2 /* SecondHandHouseListViewController.m in Sources */,
+				BD3950581F2F1C24009658F2 /* HandEstateModel.m in Sources */,
+				BD3950441F2F1394009658F2 /* BaseViewController.m in Sources */,
+				BD3950241F2F042E009658F2 /* RequestEngine.m in Sources */,
+				BD3950551F2F1AB2009658F2 /* SecondHandHouseViewModel.m in Sources */,
+				BD3950421F2F1394009658F2 /* BaseCell.m in Sources */,
+				BD3950451F2F1394009658F2 /* BaseViewModel.m in Sources */,
+				BD0FA6DB1F307A1B0073ECE4 /* SHCellViewModel.m in Sources */,
+				BD3950501F2F15D2009658F2 /* SecondHandHouseView.m in Sources */,
+				BD096E811F31DB5D008371D5 /* CommonMethods.m in Sources */,
+				BD3950431F2F1394009658F2 /* BaseModel.m in Sources */,
+				BD3950211F2EDF14009658F2 /* main.m in Sources */,
+				BD39505B1F2F1E01009658F2 /* SecondHandHouseCell.m in Sources */,
+				BD3950461F2F1394009658F2 /* BaseView.m in Sources */,
+				BD3950271F2F0556009658F2 /* RequestError.m in Sources */,
+				BD096E791F316EC7008371D5 /* SHEstateListModel.m in Sources */,
+				BD39501B1F2EDF14009658F2 /* AppDelegate.m in Sources */,
+				BD39504A1F2F13E5009658F2 /* UIView+GYShortcut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD394FF21F2EDCDA009658F2 /* Main.storyboard */ = {
+		BD3950141F2EDF14009658F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BD394FF31F2EDCDA009658F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BD394FF71F2EDCDA009658F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD394FF81F2EDCDA009658F2 /* Base */,
+				BD3950151F2EDF14009658F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD3950161F2EDF14009658F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3950171F2EDF14009658F2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -269,10 +624,13 @@
 		};
 		BD394FFE1F2EDCDA009658F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631F4EE59EB6D62BBE6EA5E9 /* Pods-MVVMTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PZ8298VFT5;
-				INFOPLIST_FILE = MVVMTest/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MVVMTest/SupportingFiles/TestPCH.pch;
+				INFOPLIST_FILE = MVVMTest/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.certne.MVVMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +639,13 @@
 		};
 		BD394FFF1F2EDCDA009658F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD617B09D58745371C1DF259 /* Pods-MVVMTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PZ8298VFT5;
-				INFOPLIST_FILE = MVVMTest/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MVVMTest/SupportingFiles/TestPCH.pch;
+				INFOPLIST_FILE = MVVMTest/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.certne.MVVMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +671,7 @@
 				BD394FFF1F2EDCDA009658F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

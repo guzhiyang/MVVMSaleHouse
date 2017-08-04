@@ -1,0 +1,68 @@
+//
+//  TestPCH.pch
+//  MVVMTest
+//
+//  Created by guzhiyang on 2017/7/31.
+//  Copyright © 2017年 TonyPersonalProject. All rights reserved.
+//
+
+#ifndef TestPCH_pch
+#define TestPCH_pch
+
+#pragma mark ----------------------- 第三方 导入 -------------------------
+
+/// 加载提示框
+#import "MBProgressHUD.h"
+
+/// 请求引擎
+#import "RequestEngine.h"
+
+/// 约束
+#import "Masonry.h"
+
+/// MJ Table
+#import <MJRefresh/MJRefresh.h>
+
+/// YYModel
+#import "NSObject+YYModel.h"
+
+/// SDWebImage
+#import "UIView+WebCache.h"
+
+/// 通用方法 
+#import "CommonMethods.h"
+
+#pragma mark ----------------------- MainWindow Weak -------------------------
+
+/// MainWindow
+#define K_Main_Window [UIApplication sharedApplication].keyWindow
+
+#define WEAK_SELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#define STRONG_SELF(strongSelf) __strong __typeof(&*self) strongSelf = weakSelf;
+
+#pragma mark ----------------------- Device information -------------------------
+
+#define MODEL_NAME              [[UIDevice currentDevice] model]
+#define MODEL_VERSION           [[[UIDevice currentDevice] systemVersion] floatValue]
+#define APP_SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
+#define APP_SCREEN_HEIGHT       [UIScreen mainScreen].bounds.size.height
+#define MAIN_SCREEN_BOUNDS      [UIScreen mainScreen].bounds
+#define MAIN_VIEW_BOUNDS        CGRectMake(0,0,[UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height-64)
+
+#pragma mark ----------------------- Color -------------------------
+
+#define THEME_RED_COLOR         [UIColor colorWithRed:255.0 / 255.0 green:13.0 / 255.0 blue:0 / 255.0 alpha:1.0f]
+#define THEME_GREEN_COLOR       [UIColor colorWithRed:0 / 255.0 green:198.0 / 255.0 blue:24.0 / 255.0 alpha:1.0f]
+
+/// 设置RGB颜色
+#define GRAY_COLOR(g)               [UIColor colorWithRed:g/255.0f green:g/255.0f blue:g/255.0f alpha:1.0f]
+#define GRAY_COLOR_ALPHA(g,a)       [UIColor colorWithRed:g/255.0f green:g/255.0f blue:g/255.0f alpha:a]
+#define RGB_COLOR(r,g,b)            [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1.0f]
+#define RGB_COLOR_ALPHA(r,g,b,a)    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#pragma mark ----------------------- Font -------------------------
+
+#define THEME_FONT_NAME @"PingFang SC"
+
+#endif
